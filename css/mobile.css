@@ -7,6 +7,10 @@
         width: 100%;
     }
 
+    .none {
+        display: none;
+    }
+
     button {
         padding: 10px 20px 10px 20px;
     }
@@ -42,11 +46,13 @@
         top: 47.6px;
         left: 60%;
     }
-    .img-card-1 h3{
+
+    .img-card-1 h3 {
         font-size: 30px;
     }
+
     .img-card-1 p,
-    .img-card-2 #text p{
+    .img-card-2 #text p {
         font-size: 9.8px;
     }
 
@@ -54,10 +60,20 @@
         left: 0;
         width: 145.91px;
     }
-    .img-card-2 .img{
+
+    .img-card-2 .img {
         display: block;
     }
-    .img-card-2 h3{
+
+    .img-card-2 h3 {
         font-size: 18px;
+    }
+
+    /* Change Your Habits start hear */
+    .habit-container {
+        padding-top: 0;
+    }
+    .habit-card{
+        flex-direction: column;
     }
 }

@@ -199,13 +199,69 @@ nav h1 {
     background: rgb(230, 83, 60);
     border-radius: 50%;
 }
-.img-card-2 .img{
+
+.img-card-2 .img {
     display: none;
 }
-.img-card-2 #text h3{
+
+.img-card-2 #text h3 {
     color: var(--heading-color);
     font-size: 24px;
     font-weight: 900;
     line-height: 24px;
     letter-spacing: 0.3px;
+}
+
+/* Change Your Habits start hear */
+main {
+    background-color: black;
+}
+
+.habit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.habit-container h2 {
+    color: var(--heading-color);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.habit-container p {
+    color: var(--paragraph-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.habit-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5rem;
+}
+
+.habit-card .card img {
+    border-radius: 50%;
+    margin-bottom: 26px;
+}
+
+.habit-card .card h4 {
+    color: var(--heading-color);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 6px;
 }
