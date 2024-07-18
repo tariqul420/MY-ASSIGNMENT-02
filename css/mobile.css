@@ -95,19 +95,39 @@
         height: 100%;
     }
 
+    /* BMI Calculator section start hear */
+    .bmi-content {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding: 2rem 0;
+    }
+
+    .bmi-child {
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    input,
+    select{
+        width: 100%;
+    }
+
     /* Meet our term start hear */
     .photo-gallery {
         grid-template-columns: repeat(1, 1fr);
     }
 
     /* footer section start hear */
-    footer{
+    footer {
         height: 100%;
     }
-    .footer-container{
+
+    .footer-container {
         flex-direction: column;
     }
-    .footer-section-1{
+
+    .footer-section-1 {
         align-items: start;
         justify-content: flex-start;
         margin-right: auto;
