@@ -222,7 +222,8 @@ main {
 .habit-container h2,
 .run-text h2,
 .our-term h2,
-.bmi-container h2 {
+.bmi-container h2,
+.featured-container {
     color: var(--heading-color);
     font-size: 3rem;
     font-weight: bolder;
@@ -234,7 +235,8 @@ main {
 .run-text p,
 .our-term p,
 .footer-section p,
-.bmi-container p {
+.bmi-container p,
+.featured-container p {
     color: var(--paragraph-color);
     font-size: 0.875rem;
     line-height: 1.5rem;
@@ -401,6 +403,64 @@ select option{
 }
 #Calculate{
     margin-right: 1rem;
+}
+
+/* featured section start hear */
+.featured-container{
+    padding-top: 5.5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.featured{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    gap: 3rem;
+}
+.featured-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px 5px 5px 20px;
+    gap: 1rem;
+    text-align: left;
+    margin-bottom: 1rem;
+
+}
+.featured-content-1,
+.featured-content-2 {
+width: 50%;
+}
+
+.featured-content-1 img {
+width: 100%;
+border-radius: 1rem;
+}
+.featured-content-1 h3{
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 10px;
+}
+.featured-content-1 p{
+    text-align: left;
+    margin-top: 10px;
+}
+
+.featured-card img{
+    width: 10rem;
+    border-radius: 1rem;
+}
+.featured-card h6{
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    text-transform: capitalize;
+}
+.featured-card p{
+    font-size: 0.875rem;
+    line-height: 100%;
+    text-align: left;
 }
 
 /* Meet our term start hear */

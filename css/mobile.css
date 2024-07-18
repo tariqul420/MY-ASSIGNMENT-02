@@ -113,6 +113,21 @@
         width: 100%;
     }
 
+    /* featured section start hear */
+    .featured-container{
+        margin-top: 3rem;
+    }
+    .featured,
+    .featured-card{
+        flex-direction: column;
+    }
+    .featured-content-1,
+    .featured-content-2 {
+    width: 100%;
+    }
+    .featured-card img{
+        width: 100%;
+    }
     /* Meet our term start hear */
     .photo-gallery {
         grid-template-columns: repeat(1, 1fr);
