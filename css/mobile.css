@@ -37,18 +37,17 @@
     }
 
     .header-text h1 {
-        font-size: 36px;
+        font-size: 5.5rem;
     }
 
     .img-card-1 {
-        width: 145.91px;
-        /* height: 74.09px; */
-        top: 47.6px;
+        width: 9.119rem;
+        top: 2.975rem;
         left: 60%;
     }
 
     .img-card-1 h3 {
-        font-size: 30px;
+        font-size: 1.875rem;
     }
 
     .img-card-1 p,
@@ -58,7 +57,7 @@
 
     .img-card-2 {
         left: 0;
-        width: 145.91px;
+        width: 9.119rem;
     }
 
     .img-card-2 .img {
@@ -66,7 +65,7 @@
     }
 
     .img-card-2 h3 {
-        font-size: 18px;
+        font-size: 1.125rem;
     }
 
     /* Change Your Habits start hear */
@@ -79,18 +78,26 @@
     }
 
     /* run extra section start hear */
-    .run-container{
+    .run-container {
         flex-direction: column;
-        gap: 31px;
+        gap: 1.938rem;
     }
-    .run-text h2{
-        font-size: 32px;
+
+    .run-text h2 {
+        font-size: 2rem;
     }
-    .run-text button{
+
+    .run-text button {
         width: 100%;
     }
+
     .run-img {
         width: 100%;
         height: 100%;
+    }
+
+    /* Meet our term start hear */
+    .photo-gallery {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
