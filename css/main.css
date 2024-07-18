@@ -70,7 +70,8 @@ nav {
     align-items: center;
 }
 
-nav h1 {
+nav h1,
+.footer-section h1 {
     color: rgb(230, 83, 60);
     font-size: 36px;
     font-weight: bold;
@@ -88,7 +89,6 @@ nav h1 {
 .nav-ul a {
     color: var(--heading-color);
     font-size: 18px;
-    line-height: 120%;
     text-align: right;
     text-decoration: none;
     text-align: center;
@@ -110,7 +110,6 @@ nav h1 {
     color: var(--heading-color);
     font-size: 4.375rem;
     font-weight: bolder;
-    line-height: 120%;
     margin-bottom: 1.75rem;
 }
 
@@ -226,14 +225,14 @@ main {
     color: var(--heading-color);
     font-size: 3rem;
     font-weight: bolder;
-    line-height: 120%;
     text-align: center;
     margin-bottom: 14px;
 }
 
 .habit-container p,
 .run-text p,
-.our-term p {
+.our-term p,
+.footer-section p {
     color: var(--paragraph-color);
     font-size: 0.875rem;
     line-height: 1.5rem;
@@ -259,7 +258,6 @@ main {
     color: var(--heading-color);
     font-size: 18px;
     font-weight: 600;
-    line-height: 120%;
     text-align: center;
     margin-bottom: 6px;
 }
@@ -280,7 +278,8 @@ main {
 }
 
 .run-text h2,
-.run-text p {
+.run-text p,
+.footer-section p {
     text-align: left;
 }
 
@@ -343,4 +342,65 @@ main {
 .photo-card p {
     color: var(--paragraph-color);
     text-align: left;
+}
+
+/* footer section start hear */
+footer {
+    height: 30.563rem;
+    margin: 0 auto;
+    background: rgb(37, 36, 36);
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 4.125rem;
+}
+
+.footer-section h1 {
+    margin-bottom: 1.25rem;
+}
+
+.footer-section-1 h4 {
+    color: var(--heading-color);
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 2.438rem;
+}
+
+.footer-p p {
+    color: var(--paragraph-color);
+    font-size: 23px;
+    margin-bottom: 1.25rem;
+}
+.footer-p p a{
+    color: var(--paragraph-color);
+    text-decoration: none;
+}
+
+#hr {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.copy p {
+    color: var(--paragraph-color);
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.copy a {
+    color: var(--paragraph-color);
+    font-size: 20px;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 36px;
+    text-decoration: none;
 }
