@@ -15,8 +15,7 @@
     <link rel="shortcut icon" href="images/prograning-hero-logo.jpg" type="image/x-icon" />
     <title>Programming Hero: Assignment 02</title>
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/mobile.css" />
-    <link rel="stylesheet" href="css/tablet.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
     <header>
@@ -28,7 +27,7 @@
             <a id="home" href="#">Home</a>
             <a href="#">Service</a>
             <a href="#">Contact</a>
-            <a href="#">About</a>
+            <a href="#about">About</a>
           </div>
           <i id="bar" class="fa-solid fa-bars fa-2x"></i>
         </div>
@@ -106,18 +105,70 @@
       <section class="run-container">
         <div class="run-text">
           <h2>
-            Run an Extra <br />
+            Run an Extra <br class="table-none" />
             Mile Easily
           </h2>
           <p>
-            We believe fitness should be accessible to everyone, <br />
-            everywhere, regardless of income or access to a gym. With <br />
+            We believe fitness should be accessible to everyone, <br class="table-none none" />
+            everywhere, regardless of income or access to a gym. With <br class="table-none none" />
             hundreds of professional workouts.
           </p>
           <button>Join Now</button>
         </div>
         <div class="run-img">
           <img src="images/run.jpg" alt="" />
+        </div>
+      </section>
+
+      <!-- Training & Exercises section start hear -->
+      <section class="training-exercises-container">
+        <h2>Training and Exercises</h2>
+        <p>
+          We believe fitness should be accessible to everyone, everywhere, regardless of income or <br class="table-none none" />
+          access to a gym.
+        </p>
+
+        <div class="training-exercises-content">
+          <div class="training-exercises-content-1">
+            <div class="training-img exercises-img-1">
+              <img src="images/exercise1.jpg" alt="" />
+              <div class="training-img-text exercises-text-1">
+                <p>Leg press <span class="none">: works the <br> quadriceps and glutes.</span></p>
+              </div>
+            </div>
+            <div class="training-img exercises-img-2">
+              <img src="images/exercise2.png" alt="" />
+              <div class="training-img-text exercises-text-2">
+                <p>Leg press <span class="none">: works the <br> quadriceps and glutes.</span></p>
+              </div>
+            </div>
+            <div class="training-img exercises-img-3 none">
+              <img src="images/exercise3.png" alt="" />
+              <div class="training-img-text exercises-text-3">
+                <p>Leg press <span class="none">: works the <br> quadriceps and glutes.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="training-exercises-content-2">
+            <div class="training-img exercises-img-4">
+              <img src="images/exercise4.png" alt="" />
+              <div class="training-img-text exercises-text-4">
+                <p>Leg press <span class="none">: works the <br> quadriceps and glutes.</span></p>
+              </div>
+            </div>
+            <div class="training-img exercises-img-5">
+              <img src="images/exercise5.jpg" alt="" />
+              <div class="training-img-text exercises-text-5">
+                <p>Leg press <span class="none">: works the <br> quadriceps and glutes.</span></p>
+              </div>
+            </div>
+            <div class="training-img exercises-img-6 none">
+              <img src="images/exercise6.jpg" alt="" />
+              <div class="training-img-text exercises-text-6">
+                <p>Leg press <span class="none">: works the <br> quadriceps and glutes.</span></p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -173,7 +224,7 @@
                 </select>
                 <div id="input-button">
                   <button type="submit" id="Calculate">Calculate</button>
-                  <button type="reset">Reset</button>
+                  <button type="reset" id="reset">Reset</button>
                 </div>
               </form>
             </div>
@@ -191,13 +242,16 @@
         <div class="featured">
           <div class="featured-content-1">
             <img src="images/featured.avif" alt="" />
-            <h3>Welcome to Healthline Fitness: <br class="none"> A Letter from the Editor</h3>
+            <h3>
+              Welcome to Healthline Fitness: <br class="none" />
+              A Letter from the Editor
+            </h3>
             <p>Fitness isn't about what you can loss. It's about what is you can gain.</p>
           </div>
           <div class="featured-content-2">
             <div class="featured-card">
               <div>
-                <img src="images/featured1.avif" alt="">
+                <img src="images/featured1.avif" alt="" />
               </div>
               <div>
                 <h6>10 exercises to tone every inch of your body</h6>
@@ -206,7 +260,7 @@
             </div>
             <div class="featured-card">
               <div>
-                <img src="images/featured2.avif" alt="">
+                <img src="images/featured2.avif" alt="" />
               </div>
               <div>
                 <h6>The Best Core Exercises for All Fitness Levels</h6>
@@ -215,7 +269,7 @@
             </div>
             <div class="featured-card">
               <div>
-                <img src="images/featured3.avif" alt="">
+                <img class="featured-card-img" src="images/featured3.avif" alt="" />
               </div>
               <div>
                 <h6>A Beginner’s Guide to Weight Training</h6>
@@ -227,7 +281,7 @@
       </section>
 
       <!-- Meet our term start hear -->
-      <section class="our-term">
+      <section class="our-term" id="about">
         <h2>Meet Our Team</h2>
         <p>
           We believe fitness should be accessible to everyone, everywhere, regardless of income or <br class="none" />
@@ -285,8 +339,8 @@
         <div class="footer-section">
           <h1>Fitness</h1>
           <p>
-            We believe fitness should be accessible to everyone, <br class="none" />
-            everywhere, regardless of income or access to a gym. With <br class="none" />
+            We believe fitness should be accessible to everyone, <br class="none table-none" />
+            everywhere, regardless of income or access to a gym. With <br class="none table-none" />
             hundreds of professional workouts.
           </p>
         </div>
@@ -314,7 +368,7 @@
       <br />
       <hr id="hr" />
       <div class="copy">
-        <p>All right reserved <a href="#">@Tariqul</a> 2024</p>
+        <p>All right reserved <a href="#">&copy;Tariqul</a> 2024</p>
       </div>
     </footer>
   </body>
