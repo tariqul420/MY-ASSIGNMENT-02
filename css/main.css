@@ -322,35 +322,29 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.4rem;
+    /* gap: 0.4rem; */
 }
 
 .training-exercises-content-1 {
     display: grid;
     grid-template-columns: 0.6fr 1fr 0.7fr;
-    grid-column-gap: 0.4rem;
+    /* grid-column-gap: 0.4rem; */
 }
 
 .training-exercises-content-2 {
     display: grid;
     grid-template-columns: 0.8fr 0.6fr 0.8fr;
-    grid-column-gap: 0.4rem;
+    /* grid-column-gap: 0.4rem; */
 }
 
 .training-img img {
     width: 100%;
     height: 100%;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .training-img {
     position: relative;
-}
-
-.training-img-text {
-    position: absolute;
-    bottom: -15%;
-    left: 5%;
 }
 
 .training-img-text p {
@@ -358,14 +352,54 @@ main {
     font-size: 1rem;
 }
 
+.training-img-text {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+
+.exercises-text-1 {
+    background: rgba(6, 255, 210, 0.5);
+    padding-top: 60%;
+    padding-left: 10%;
+}
+
 .exercises-text-2 {
-    top: 10%;
+    padding: 20px;
+    background: rgba(255, 0, 0, 0.3);
+}
+
+.exercises-text-3 {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 50%;
+    padding-left: 10%;
 }
 
 .exercises-text-4 {
-    top: 10%;
-    left: 50%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding-left: 40%;
 }
+
+.exercises-text-5 {
+    padding: 20px;
+    background: rgba(66, 255, 0, 0.3);
+    padding-top: 60%;
+    padding-left: 10%;
+}
+
+.exercises-text-6 {
+    padding: 20px;
+    background: rgba(0, 71, 255, 0.3);
+    padding-top: 50%;
+    padding-left: 10%;
+}
+
 
 /* BMI Calculator section start hear */
 .bmi-container {
@@ -387,6 +421,14 @@ main {
     gap: 11rem;
     width: 80%;
     margin: 0 auto;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .table h3,

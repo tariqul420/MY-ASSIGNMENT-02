@@ -111,14 +111,16 @@
         grid-template-columns: 0.9fr 1fr;
     }
 
-    .training-img-text {
-        position: absolute;
-        top: 70%;
-        left: 5%;
+    .exercises-text-1 {
+        padding-top: 50%;
     }
 
-    .exercises-text-2 {
-        top: 10%;
+    .exercises-text-4 {
+        padding-left: 30%;
+    }
+
+    .exercises-text-5 {
+        padding-top: 50%;
     }
 
     /* BMI Calculator section start hear */
