@@ -41,7 +41,7 @@
     }
 
     .header-text h1 {
-        font-size: 3.5rem;
+        font-size: 4rem;
         width: auto;
     }
 
@@ -103,6 +103,10 @@
 
 
     /* training exercises section start hear */
+    .training-exercises-container h2 {
+        font-size: 2rem;
+    }
+
     .training-exercises-content-1 {
         grid-template-columns: 1fr 0.9fr;
     }
@@ -116,7 +120,7 @@
     }
 
     .exercises-text-4 {
-        padding-left: 30%;
+        padding-left: 29%;
     }
 
     .exercises-text-5 {
@@ -155,7 +159,9 @@
     .featured-content-2 {
         width: 100%;
     }
-
+    .featured-content-1 h3{
+        font-size: 1.5rem;
+    }
     .featured-card img {
         width: 100%;
     }
@@ -339,6 +345,18 @@
         flex-direction: column;
     }
 
+    /* Change Your Habits start hear */
+    .habit-card .card img {
+        border-radius: 50%;
+        margin-bottom: 26px;
+        background: rgb(34, 34, 34);
+        padding: 0.2rem;
+    }
+
+    .habit-container .card p {
+        font-size: 0.5rem;
+    }
+
     /* run container section start hear */
     .run-container {
         width: 90%;
@@ -351,9 +369,12 @@
 
     /* training exercises section start hear */
     .exercises-text-4 {
-        left: 40%;
+        padding-left: 30%;
     }
 
+    .exercises-text-5 {
+        padding-left: 5%;
+    }
 
 
 
