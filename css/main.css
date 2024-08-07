@@ -16,6 +16,20 @@
     --paragraph-color: rgba(255, 255, 255, 0.5);
 }
 
+::-webkit-scrollbar {
+    height: .1rem;
+    width: .5rem;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(230, 83, 60);
+    border-radius: 5rem;
+}
+
 body {
     font-family: "Inter", sans-serif;
     max-width: 90rem;
@@ -29,9 +43,8 @@ button {
     border: none;
     cursor: pointer;
     color: var(--heading-color);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
-    line-height: 22px;
 }
 
 /* header section start hear */
@@ -73,29 +86,28 @@ nav {
 nav h1,
 .footer-section h1 {
     color: rgb(230, 83, 60);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: bold;
-    line-height: 120%;
 }
 
 #home {
     border-radius: 46px;
     background: rgb(230, 83, 60);
     padding: 8px 20px 8px 20px;
-    width: 92px;
-    height: 38px;
+    width: 5.75rem;
+    height: 2.375rem;
 }
 
 .nav-ul a {
     color: var(--heading-color);
-    font-size: 18px;
+    font-size: 1.125rem;
     text-align: right;
     text-decoration: none;
     text-align: center;
 }
 
 .header {
-    margin-top: 32px;
+    margin-top: 2rem;
     display: flex;
     gap: 10.438rem;
     align-items: center;
@@ -128,7 +140,7 @@ nav h1,
 .header-button {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 0.88rem;
 }
 
 #button {
@@ -188,8 +200,8 @@ nav h1,
 }
 
 #circle {
-    width: 40px;
-    height: 40px;
+    width: 2.5rem;
+    height: 2.5rem;
     background: rgb(230, 83, 60);
     border-radius: 50%;
 }
@@ -265,7 +277,7 @@ main {
 
 .habit-card .card h4 {
     color: var(--heading-color);
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     text-align: center;
     margin-bottom: 6px;
@@ -299,8 +311,8 @@ main {
 }
 
 .run-img {
-    width: 366px;
-    height: 312px;
+    width: 22.875rem;
+    height: 19.5rem;
 }
 
 .run-img img {
@@ -322,25 +334,21 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* gap: 0.4rem; */
 }
 
 .training-exercises-content-1 {
     display: grid;
     grid-template-columns: 0.6fr 1fr 0.7fr;
-    /* grid-column-gap: 0.4rem; */
 }
 
 .training-exercises-content-2 {
     display: grid;
     grid-template-columns: 0.8fr 0.6fr 0.8fr;
-    /* grid-column-gap: 0.4rem; */
 }
 
 .training-img img {
     width: 100%;
     height: 100%;
-    /* border-radius: 10px; */
 }
 
 .training-img {
@@ -434,10 +442,10 @@ main {
 .table h3,
 .form h3 {
     color: var(--heading-color);
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: bolder;
     text-align: center;
-    margin-bottom: 32px;
+    margin-bottom: 2rem;
 }
 
 .table h3 {
@@ -454,13 +462,13 @@ td {
 
 td {
     color: var(--paragraph-color);
-    font-size: 14px;
+    font-size: 0.88rem;
     text-align: left;
 }
 
 th {
     color: var(--heading-color);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -470,7 +478,7 @@ th {
 }
 
 .form {
-    margin-top: 34px;
+    margin-top: 2.125rem;
 }
 
 form {
@@ -495,7 +503,7 @@ select {
     background: rgba(255, 255, 255, 0.1);
     border: none;
     color: rgba(255, 255, 255, 0.6);
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 22px;
 }
 
@@ -564,7 +572,7 @@ select option {
 .featured-content-1 h3 {
     font-size: 2rem;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 0.6rem;
 }
 
 .featured-content-1 p {
@@ -657,14 +665,14 @@ footer {
 
 .footer-section-1 h4 {
     color: var(--heading-color);
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 2.438rem;
 }
 
 .footer-p p {
     color: var(--paragraph-color);
-    font-size: 23px;
+    font-size: 1.438rem;
     margin-bottom: 1.25rem;
 }
 
@@ -680,17 +688,17 @@ footer {
 
 .copy p {
     color: var(--paragraph-color);
-    font-size: 20px;
+    font-size: 1.25rem;
     letter-spacing: 0.3px;
     line-height: 24px;
     text-align: center;
-    padding-top: 36px;
-    padding-bottom: 36px;
+    padding-top: 2.25rem;
+    padding-bottom: 1.5rem;
 }
 
 .copy a {
     color: var(--paragraph-color);
-    font-size: 20px;
+    font-size: 1.25rem;
     letter-spacing: 0.3px;
     line-height: 24px;
     text-align: center;
